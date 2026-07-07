@@ -3,8 +3,8 @@
 import { useParams, Link } from 'react-router-dom'
 
 // Define el tipo de los parámetros de la URL
-interface ProductParams {
-  id: string   // los params siempre son string — convierte si necesitas número
+type ProductParams = {
+  id: string | undefined  // los params siempre son string — convierte si necesitas número
 }
 
 export default function ProductDetailPage() {
