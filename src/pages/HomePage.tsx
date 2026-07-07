@@ -6,7 +6,7 @@ export default function HomePage(){
                 Bienvendio a una App con Router
             </p>
             <p style= {{ color: '#6b7280'}}>
-                Autor
+                Autor: Christian Cañar
             </p>
         </div>
     )
